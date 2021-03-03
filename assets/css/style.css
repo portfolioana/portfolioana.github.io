@@ -1,0 +1,678 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #576b68;
+  border-radius: 20px;
+}
+
+header {
+  font-size: 20px;
+}
+header .logo {
+  padding-left: 60%;
+}
+header nav {
+  position: absolute;
+}
+header nav ul {
+  margin-top: 15px;
+}
+header nav ul li {
+  margin: 0px 10px;
+}
+header nav ul li a {
+  text-transform: uppercase;
+}
+header nav ul li a:hover {
+  color: #2e192e;
+}
+
+body {
+  background-color: #e0edec;
+  text-align: center;
+}
+body p {
+  font-size: 20px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+body h1, body h2, body h3, body h4 {
+  font-family: "Playfair Display", serif;
+}
+body h3 {
+  font-size: 25px;
+}
+body h2 {
+  font-size: 30px;
+}
+body h1 {
+  font-size: 40px;
+}
+body a {
+  text-decoration: none;
+}
+body ul {
+  list-style-type: none;
+}
+
+.wrapperpcs {
+  background-color: #93a5a4;
+  width: 100%;
+  height: 1000px;
+}
+.wrapperpcs .pcs {
+  font-size: 1000px;
+  color: #576b68;
+  background-color: #e8cbcd;
+  width: 100%;
+  text-align: center;
+}
+
+.center {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexnav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.padding-for-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.wrapimg {
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/baner.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.wrapimg .transbox {
+  padding: 50px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.wrapimg .transbox h2 {
+  font-size: 40px;
+}
+.wrapimg .transbox h3 {
+  font-size: 30px;
+}
+
+#about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.blok {
+  padding-top: 20px;
+}
+.blok h2 {
+  text-align: center;
+  background-color: #93a5a4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+.blok p, .blok h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.levo {
+  width: 60%;
+}
+
+.exspandedu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.exspandedutxt {
+  padding: 40px;
+}
+
+.slikaJa {
+  width: 30%;
+  height: 500px;
+  background-image: url(../images/me.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px;
+}
+
+.threeservices {
+  display: flex;
+  justify-content: space-evenly;
+}
+.threeservices .service {
+  width: 30%;
+}
+
+.boxnaslov1, .boxnaslov2, .boxnaslov3, .boxnaslov4 {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.boxnaslov1 h2, .boxnaslov2 h2, .boxnaslov3 h2, .boxnaslov4 h2 {
+  text-align: center;
+  background-color: #93a5a4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skillset {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.skillset .skillsetstwo {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.skillset .skillsetstwo .skillsetihp {
+  width: 40%;
+}
+.skillset .skillsetstwo .fab, .skillset .skillsetstwo .fas {
+  font-size: 100px;
+  color: #2e192e;
+}
+.skillset .skillsetstwo h3, .skillset .skillsetstwo p {
+  padding: 10px;
+}
+
+.fourprojects {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fourprojects .oneproject {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fourprojects .oneproject .projecttxt {
+  text-align: left;
+}
+.fourprojects .oneproject .projecttxt, .fourprojects .oneproject .projectimg {
+  width: 45%;
+}
+.fourprojects .oneproject .projectimg {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 20px;
+}
+.fourprojects .oneproject .projecttxt h3:hover {
+  color: #2e192e;
+}
+
+.contactme {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contactme .map {
+  height: 400px;
+}
+.contactme .map h3 {
+  text-align: left;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.contacttable form {
+  padding: 25px;
+  box-shadow: 0 2px 5px #93a5a4;
+  background: #e8cbcd;
+  height: 400px;
+}
+.contacttable form input, .contacttable form textarea {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #2e192e;
+  outline: none;
+}
+.contacttable form input::-moz-placeholder {
+  color: #666;
+}
+.contacttable form input:-ms-input-placeholder {
+  color: #666;
+}
+.contacttable form input::placeholder {
+  color: #666;
+}
+.contacttable form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #93a5a4;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2e192e;
+}
+.contacttable form button:hover {
+  background: #576b68;
+}
+
+.code, .copyright {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+}
+
+.code {
+  background-color: #e8cbcd;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #93a5a4;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .socialmedia-icons {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  align-items: center;
+}
+footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
+  font-size: 25px;
+  color: #2e192e;
+}
+footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook {
+  font-size: 40px;
+  color: #2e192e;
+}
+
+.bottomnav a, li {
+  font-size: 25px;
+  color: #2e192e;
+  text-align: right;
+}
+
+.marlen {
+  background-image: url(../images/sajtMarlen.jpg);
+}
+
+.portfoliop {
+  background-image: url(../images/sajtPortfolio.jpg);
+}
+
+.pastel {
+  background-image: url(../images/sajtPastel.jpg);
+}
+
+.bank {
+  background-image: url(../images/sajtBank.jpg);
+}
+
+.minilogo {
+  visibility: hidden;
+  padding-left: 50%;
+}
+
+@media only screen and (max-width: 1440px) {
+  .bottomnav a, li {
+    font-size: 20px;
+  }
+
+  body h1 {
+    font-size: 35px;
+  }
+
+  header .logo {
+    padding-left: 50%;
+  }
+
+  .wrapimg {
+    height: 550px;
+  }
+
+  .exspandedutxt {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .levo {
+    width: 100%;
+  }
+
+  .slikaJa {
+    margin-top: 0px;
+    background-position: top;
+    height: 300px;
+  }
+
+  .blok h2 {
+    width: 100%;
+  }
+
+  .exspandedutxt {
+    padding: 0px 0px 20px;
+  }
+
+  .wrapimg {
+    height: 500px;
+  }
+
+  .skillset {
+    display: unset;
+  }
+
+  .skillset .skillsetstwo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .wrapimg .transbox h3 {
+    font-size: 30pxpx;
+  }
+
+  .wrapimg .transbox h2 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  header .logo {
+    padding-left: 50%;
+  }
+
+  header .padding-for-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  body h1 {
+    font-size: 28px;
+  }
+
+  body h3 {
+    font-size: 19px;
+  }
+
+  body h2 {
+    font-size: 23px;
+  }
+
+  body p {
+    font-size: 17px;
+  }
+
+  .bottomnav a, li {
+    font-size: 16px;
+  }
+
+  header nav ul {
+    margin-top: 12px;
+  }
+
+  .wrapimg {
+    height: 450px;
+  }
+  .wrapimg .transbox h3 {
+    font-size: 25px;
+  }
+  .wrapimg .transbox h2 {
+    font-size: 35px;
+  }
+
+  .fourprojects .oneproject .projectimg {
+    margin-top: 0px;
+  }
+
+  footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
+    font-size: 20px;
+  }
+
+  footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .logo {
+    visibility: hidden;
+    padding-left: 0%;
+  }
+
+  .center {
+    width: 100%;
+  }
+
+  .slikaJa {
+    background-size: cover;
+  }
+
+  .fourprojects, .contactme {
+    display: contents;
+  }
+
+  .contacttable {
+    display: flex;
+    justify-content: space-around;
+  }
+  .contacttable form {
+    margin-top: 30px;
+    height: unset;
+    width: 90%;
+  }
+
+  * {
+    border-radius: 0px;
+  }
+
+  .code {
+    border-radius: 0px;
+  }
+
+  .wrapimg {
+    height: 350px;
+  }
+
+  footer .socialmedia-icons {
+    width: 80%;
+  }
+
+  .boxnaslov1, .boxnaslov2, .boxnaslov3, .boxnaslov4 {
+    padding: 20px 0px;
+  }
+
+  .wrapimg .transbox {
+    padding: 30px;
+  }
+
+  header nav ul li {
+    margin: 0px 6px 0px 15px;
+  }
+
+  .minilogo {
+    visibility: visible;
+    padding-left: 95%;
+  }
+
+  .blok p, .blok h3 {
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .bottomnav a, li {
+    font-size: 13.5px;
+  }
+
+  .contactme .map {
+    height: 0px;
+    visibility: hidden;
+  }
+
+  .contacttable form {
+    margin-top: 0px;
+  }
+
+  .threeservices {
+    display: contents;
+  }
+
+  .threeservices .service {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .minilogo {
+    padding-left: 83%;
+    font-size: 25px;
+  }
+
+  .wrapimg .transbox h2 {
+    font-size: 30px;
+  }
+
+  .wrapimg .transbox h3 {
+    font-size: 20px;
+  }
+
+  .wrapimg {
+    height: 300px;
+  }
+
+  header nav ul {
+    margin-top: 14px;
+  }
+
+  .fourprojects .oneproject .projectimg {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  header .padding-for-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  header nav ul li {
+    margin: 0px 5px 0px 5px;
+  }
+
+  .bottomnav a, li {
+    font-size: 13px;
+  }
+
+  .minilogo {
+    padding-left: 73%;
+    font-size: 20px;
+  }
+
+  .skillset .skillsetstwo {
+    display: contents;
+  }
+
+  .skillset .skillsetstwo .skillsetihp {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: rgba(232, 203, 205, 0.5);
+  }
+
+  .skillset .skillsetstwo .fab, .skillset .skillsetstwo .fas {
+    font-size: 70px;
+  }
+
+  .fourprojects .oneproject .projectimg {
+    height: 200px;
+  }
+
+  footer .socialmedia-icons {
+    display: unset;
+    padding: 30px;
+  }
+
+  .fab.fa-instagram, .fab.fa-facebook {
+    margin: 5px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .slikaJa {
+    height: 200px;
+  }
+
+  footer .socialmedia-icons {
+    display: unset;
+    padding: 30px 20px;
+    width: 70%;
+  }
+
+  footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
+    font-size: 17px;
+  }
+
+  footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook {
+    font-size: 20px;
+  }
+
+  .wrapimg {
+    height: 250px;
+  }
+
+  .bottomnav a, li {
+    font-size: 11px;
+  }
+
+  .minilogo {
+    padding-left: 75%;
+    font-size: 17px;
+  }
+
+  header nav ul {
+    margin-top: 12px;
+  }
+
+  .wrapimg .transbox h2 {
+    font-size: 25px;
+  }
+
+  .wrapimg .transbox h3 {
+    font-size: 18px;
+  }
+
+  body h1 {
+    font-size: 23px;
+  }
+
+  body h3 {
+    font-size: 16px;
+  }
+
+  body h2 {
+    font-size: 20px;
+  }
+
+  body p {
+    font-size: 14px;
+  }
+
+  .skillset .skillsetstwo .fab, .skillset .skillsetstwo .fas {
+    font-size: 70px;
+  }
+}/*# sourceMappingURL=style.css.map */

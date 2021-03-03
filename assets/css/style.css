@@ -96,11 +96,12 @@ body ul {
   text-align: center;
   width: 50%;
   margin: 0 auto;
+  background-color: #e8cbcd;
 }
-.wrapimg .transbox h2 {
+.wrapimg .transbox h1 {
   font-size: 40px;
 }
-.wrapimg .transbox h3 {
+.wrapimg .transbox h2 {
   font-size: 30px;
 }
 
@@ -366,11 +367,11 @@ footer .socialmedia-icons p {
     width: 100%;
   }
 
-  .wrapimg .transbox h3 {
+  .wrapimg .transbox h2 {
     font-size: 30pxpx;
   }
 
-  .wrapimg .transbox h2 {
+  .wrapimg .transbox h1 {
     font-size: 35px;
   }
 }
@@ -394,10 +395,10 @@ footer .socialmedia-icons p {
   .wrapimg {
     height: 450px;
   }
-  .wrapimg .transbox h3 {
+  .wrapimg .transbox h2 {
     font-size: 25px;
   }
-  .wrapimg .transbox h2 {
+  .wrapimg .transbox h1 {
     font-size: 35px;
   }
 
@@ -516,11 +517,11 @@ footer .socialmedia-icons p {
     padding: 10px;
   }
 
-  .wrapimg .transbox h2 {
+  .wrapimg .transbox h1 {
     font-size: 30px;
   }
 
-  .wrapimg .transbox h3 {
+  .wrapimg .transbox h2 {
     font-size: 20px;
   }
 
@@ -569,7 +570,7 @@ footer .socialmedia-icons p {
     height: 250px;
   }
 
-  .wrapimg .transbox h2 {
+  .wrapimg .transbox h1 {
     font-size: 25px;
   }
 
@@ -577,7 +578,7 @@ footer .socialmedia-icons p {
     width: 100%;
   }
 
-  .wrapimg .transbox h3 {
+  .wrapimg .transbox h2 {
     font-size: 18px;
   }
 
@@ -654,11 +655,11 @@ footer .socialmedia-icons p {
     height: 150px;
   }
 
-  .wrapimg .transbox h2 {
+  .wrapimg .transbox h1 {
     font-size: 22px;
   }
 
-  .wrapimg .transbox h3 {
+  .wrapimg .transbox h2 {
     font-size: 17px;
   }
 }/*# sourceMappingURL=style.css.map */

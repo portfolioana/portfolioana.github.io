@@ -94,10 +94,11 @@ body{
         text-align: center;
         width: 50%;
         margin: 0 auto;
-        h2 {
+        background-color: $banerpink;
+        h1 {
             font-size: 40px;
         }
-        h3 {
+        h2 {
             font-size: 30px;
         }
     }
@@ -334,10 +335,10 @@ footer {
         justify-content: space-around;
         width: 100%;
     }
-    .wrapimg .transbox h3 {
+    .wrapimg .transbox h2 {
         font-size: 30pxpx;
     }
-    .wrapimg .transbox h2 {
+    .wrapimg .transbox h1 {
         font-size: 35px;
     }
 }
@@ -356,10 +357,10 @@ footer {
     }
     .wrapimg {
         height: 450px;
-        .transbox h3 {
+        .transbox h2 {
             font-size: 25px;
         }
-        .transbox h2 {
+        .transbox h1 {
             font-size: 35px;
         }
     }
@@ -451,10 +452,10 @@ footer {
         width: 100%;
         padding: 10px;
     }
-    .wrapimg .transbox h2 {
+    .wrapimg .transbox h1 {
         font-size: 30px;
     }
-    .wrapimg .transbox h3 {
+    .wrapimg .transbox h2 {
         font-size: 20px;
     }
     .wrapimg {
@@ -494,13 +495,13 @@ footer {
     .wrapimg {
         height: 250px;
     }
-    .wrapimg .transbox h2 {
+    .wrapimg .transbox h1 {
         font-size: 25px;
     }
     .wrapimg .transbox {
         width: 100%;
     }
-    .wrapimg .transbox h3 {
+    .wrapimg .transbox h2 {
         font-size: 18px;
     }
     footer .socialmedia-icons p {
@@ -561,10 +562,10 @@ footer {
     .wrapimg {
         height: 150px;
     }
-    .wrapimg .transbox h2 {
+    .wrapimg .transbox h1 {
         font-size: 22px;
     }
-    .wrapimg .transbox h3 {
+    .wrapimg .transbox h2 {
         font-size: 17px;
     }
 }

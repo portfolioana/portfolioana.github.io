@@ -549,14 +549,18 @@ footer {
         height: 250px;
     }
     .bottomnav a, li {
-        font-size: 11px;
+        font-size: 12px;
+    }
+    .space-between {
+        justify-content: space-evenly;
     }
     .minilogo {
-        padding-left: 75%;
-        font-size: 17px;
+        padding-left: 0px;
+        visibility: hidden;
     }
     header nav ul {
-        margin-top: 12px;
+        align-items: center;
+        margin-top: 0px;
     }
     .wrapimg .transbox h2 {
         font-size: 25px;
@@ -578,5 +582,22 @@ footer {
     }
     .skillset .skillsetstwo .fab, .skillset .skillsetstwo .fas {
         font-size: 70px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    footer .socialmedia-icons {
+        display: unset;
+        padding: 10px;
+        width: 70%;
+    }
+    footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
+        font-size: 13px;
+    }
+    footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook {
+        font-size: 15px;
+    }
+    .bottomnav a, li {
+        font-size: 16px;
+        text-align: center;
     }
 }

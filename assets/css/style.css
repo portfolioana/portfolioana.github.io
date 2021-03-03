@@ -40,6 +40,31 @@ body ul {
   list-style-type: none;
 }
 
+.topnav {
+  background-color: #e8cbcd;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #576b68;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: #93a5a4;
+  color: #2e192e;
+}
+.topnav a.active {
+  background-color: #93a5a4;
+  color: #2e192e;
+}
+.topnav .icon {
+  display: none;
+}
+
 .wrapperpcs {
   background-color: #93a5a4;
   width: 100%;
@@ -298,22 +323,9 @@ footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook 
   background-image: url(../images/sajtBank.jpg);
 }
 
-.minilogo {
-  visibility: hidden;
-  padding-left: 50%;
-}
-
 @media only screen and (max-width: 1440px) {
-  .bottomnav a, li {
-    font-size: 20px;
-  }
-
   body h1 {
     font-size: 35px;
-  }
-
-  header .logo {
-    padding-left: 50%;
   }
 
   .wrapimg {
@@ -366,15 +378,6 @@ footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook 
   }
 }
 @media only screen and (max-width: 1080px) {
-  header .logo {
-    padding-left: 50%;
-  }
-
-  header .padding-for-header {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
   body h1 {
     font-size: 28px;
   }
@@ -389,14 +392,6 @@ footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook 
 
   body p {
     font-size: 17px;
-  }
-
-  .bottomnav a, li {
-    font-size: 16px;
-  }
-
-  header nav ul {
-    margin-top: 12px;
   }
 
   .wrapimg {
@@ -498,10 +493,6 @@ footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook 
   }
 }
 @media only screen and (max-width: 640px) {
-  .bottomnav a, li {
-    font-size: 13.5px;
-  }
-
   .contactme .map {
     height: 0px;
     visibility: hidden;
@@ -520,11 +511,6 @@ footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook 
     padding: 10px;
   }
 
-  .minilogo {
-    padding-left: 83%;
-    font-size: 25px;
-  }
-
   .wrapimg .transbox h2 {
     font-size: 30px;
   }
@@ -537,33 +523,11 @@ footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook 
     height: 300px;
   }
 
-  header nav ul {
-    margin-top: 14px;
-  }
-
   .fourprojects .oneproject .projectimg {
     height: 250px;
   }
 }
 @media only screen and (max-width: 540px) {
-  header .padding-for-header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  header nav ul li {
-    margin: 0px 5px 0px 5px;
-  }
-
-  .bottomnav a, li {
-    font-size: 13px;
-  }
-
-  .minilogo {
-    padding-left: 73%;
-    font-size: 20px;
-  }
-
   .skillset .skillsetstwo {
     display: contents;
   }
@@ -615,19 +579,6 @@ footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook 
     height: 250px;
   }
 
-  .bottomnav a, li {
-    font-size: 11px;
-  }
-
-  .minilogo {
-    padding-left: 75%;
-    font-size: 17px;
-  }
-
-  header nav ul {
-    margin-top: 12px;
-  }
-
   .wrapimg .transbox h2 {
     font-size: 25px;
   }
@@ -655,28 +606,4 @@ footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook 
   .skillset .skillsetstwo .fab, .skillset .skillsetstwo .fas {
     font-size: 70px;
   }
-}
-.topnav {
-  background-color: #e8cbcd;
-  overflow: hidden;
-}
-.topnav a {
-  float: left;
-  display: block;
-  color: #576b68;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-}
-.topnav a:hover {
-  background-color: #93a5a4;
-  color: #2e192e;
-}
-.topnav a.active {
-  background-color: #93a5a4;
-  color: #2e192e;
-}
-.topnav .icon {
-  display: none;
 }/*# sourceMappingURL=style.css.map */

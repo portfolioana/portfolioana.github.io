@@ -292,12 +292,15 @@ footer .socialmedia-icons {
   width: 60%;
   align-items: center;
 }
+footer .socialmedia-icons p {
+  font-size: 20px;
+}
 footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
   font-size: 25px;
   color: #2e192e;
 }
 footer .socialmedia-icons p {
-  font-size: 40px;
+  font-size: 20px;
   color: #2e192e;
 }
 

@@ -272,12 +272,15 @@ footer {
         justify-content: space-evenly;
         width: 60%;
         align-items: center;
+        p {
+            font-size: 20px;
+        }
         .fa-envelope, .fa-phone {
             font-size: 25px;
             color: $darkgreen;
         }
         p {
-            font-size: 40px;
+            font-size: 20px;
             color: $darkgreen;
         }
     }

@@ -43,7 +43,7 @@ body{
     }
 }
 .topnav {
-    background-color: $banerpink;
+    background-color: rgba(232, 203, 205, 0.5);
     overflow: hidden;
     a {
         float: left;
@@ -90,7 +90,7 @@ body{
     background-position: bottom;
     background-repeat: no-repeat;
     .transbox {
-        padding: 50px;
+        padding: 20px 0px 0px 0px;
         text-align: center;
         width: 50%;
         margin: 0 auto;

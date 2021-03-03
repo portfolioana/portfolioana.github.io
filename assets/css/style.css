@@ -41,7 +41,7 @@ body ul {
 }
 
 .topnav {
-  background-color: #e8cbcd;
+  background-color: rgba(232, 203, 205, 0.5);
   overflow: hidden;
 }
 .topnav a {
@@ -92,7 +92,7 @@ body ul {
   background-repeat: no-repeat;
 }
 .wrapimg .transbox {
-  padding: 50px;
+  padding: 20px 0px 0px 0px;
   text-align: center;
   width: 50%;
   margin: 0 auto;

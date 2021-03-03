@@ -276,16 +276,11 @@ footer {
             font-size: 25px;
             color: $darkgreen;
         }
-        .fa-instagram, .fa-facebook {
+        p {
             font-size: 40px;
             color: $darkgreen;
         }
     }
-}
-.bottomnav a, li {
-    font-size: 25px;
-    color: $darkgreen;
-    text-align: right;
 }
 .marlen {
     background-image: url(../images/sajtMarlen.jpg);
@@ -365,14 +360,14 @@ footer {
             font-size: 35px;
         }
     }
-    .fourprojects .oneproject .projectimg {
-        margin-top: 0px;
+    footer p {
+        font-size: 30px;
     }
     footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
         font-size: 20px;
     }
-    footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook {
-        font-size: 30px;
+    .fourprojects .oneproject .projectimg {
+        margin-top: 0px;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -394,6 +389,9 @@ footer {
         width: 90%;
         }
     }
+    footer .socialmedia-icons {
+        width: 100%;
+    }
     * {
         border-radius: 0px;
     }
@@ -402,9 +400,6 @@ footer {
     }
     .wrapimg {
         height: 350px;
-    }
-    footer .socialmedia-icons {
-        width: 80%;
     }
     .boxnaslov1, .boxnaslov2, .boxnaslov3, .boxnaslov4 {
         padding: 20px 0px;
@@ -443,6 +438,12 @@ footer {
     .threeservices {
         display: contents;
     }
+    footer .socialmedia-icons p {
+        font-size: 25px;
+    }
+    footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
+        font-size: 20px;
+    }
     .threeservices .service {
         width: 100%;
         padding: 10px;
@@ -473,31 +474,19 @@ footer {
     .skillset .skillsetstwo .fab, .skillset .skillsetstwo .fas {
         font-size: 70px;
     }
+    footer .socialmedia-icons p{
+        font-size: 23px;
+    }
+    footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
+        font-size: 17px;
+    }
     .fourprojects .oneproject .projectimg {
         height: 200px;
-    }
-    footer .socialmedia-icons {
-        display: unset;
-        padding: 30px;
-    }
-    .fab.fa-instagram, .fab.fa-facebook {
-        margin: 5px;
     }
 }
 @media only screen and (max-width: 480px) {
     .slikaJa {
         height: 200px;
-    }
-    footer .socialmedia-icons {
-        display: unset;
-        padding: 30px 20px;
-        width: 70%;
-    }
-    footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
-        font-size: 17px;
-    }
-    footer .socialmedia-icons .fa-instagram, footer .socialmedia-icons .fa-facebook {
-        font-size: 20px;
     }
     .wrapimg {
         height: 250px;
@@ -505,8 +494,17 @@ footer {
     .wrapimg .transbox h2 {
         font-size: 25px;
     }
+    .wrapimg .transbox {
+        width: 100%;
+    }
     .wrapimg .transbox h3 {
         font-size: 18px;
+    }
+    footer .socialmedia-icons p {
+        font-size: 15px;
+    }
+    footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
+        font-size: 15px;
     }
     body h1 {
         font-size: 23px;
@@ -522,5 +520,48 @@ footer {
     }
     .skillset .skillsetstwo .fab, .skillset .skillsetstwo .fas {
         font-size: 70px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    footer .socialmedia-icons p {
+        font-size: 10px;
+        margin: 10px;
+    }
+    footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
+        font-size: 13px;
+    }
+    .wrapimg {
+        height: 200px;
+    }
+    .fourprojects .oneproject {
+        display: contents;
+    }
+    .fourprojects .oneproject .projecttxt, .fourprojects .oneproject .projectimg {
+        width: 100%;
+        padding: 15px;
+    }
+    .fourprojects .oneproject .projecttxt {
+        text-align: center;
+    }
+    .slikaJa {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 240px) {
+    footer .socialmedia-icons p {
+        font-size: 10px;
+        margin: 10px;
+    }
+    footer .socialmedia-icons .fa-envelope, footer .socialmedia-icons .fa-phone {
+        font-size: 13px;
+    }
+    .wrapimg {
+        height: 150px;
+    }
+    .wrapimg .transbox h2 {
+        font-size: 22px;
+    }
+    .wrapimg .transbox h3 {
+        font-size: 17px;
     }
 }

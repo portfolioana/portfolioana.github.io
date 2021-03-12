@@ -9,19 +9,23 @@
 		<meta name="keywords" content="portfolio, web, design, job, CV, java, html, css, programing"/>
         <link rel="shortcut icon" href="assets/images/favicon.ico">
         <link href="assets/css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="myscripts.js"></script>
     </head>
     <body>
         <div id="wrapper">
             <header>
                 <div class="center topnav" id="myTopnav">
                     <a href="#home" class="active">Home</a>
-                    <a href="#about">About Me</a>
-                    <a href="#services">My Services</a>
-                    <a href="#skills">My Skills</a>
-                    <a href="#projects">My Projects</a>
-                    <a href="#contact">Contact Me</a>
+                    <div id="myLinks">
+                        <a href="#home" class="hidden">Home</a>
+                        <a href="#about">About Me</a>
+                        <a href="#services">My Services</a>
+                        <a href="#skills">My Skills</a>
+                        <a href="#projects">My Projects</a>
+                        <a href="#contact">Contact Me</a>
+                    </div>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                      <i class="fa fa-bars"></i>
+                        <i class="fa fa-bars"></i>
                     </a>
                   </div>
             </header>

@@ -66,6 +66,10 @@ body{
       .icon {
         display: none;
       }
+      .hidden {
+          visibility: hidden;
+          width: 0px;
+      }
   } 
 .wrapperpcs {
     background-color: $ashy;
